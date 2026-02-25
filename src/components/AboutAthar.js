@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { useTranslation } from 'react-i18next';
+import bgImage from '../images/bg.jpeg';
 
 // Import Amiri font globally
 const GlobalStyle = createGlobalStyle`
@@ -9,7 +10,10 @@ const GlobalStyle = createGlobalStyle`
 
 // إعداد مكونات الـ Styled Components
 const AboutContainer = styled.div`
-  background-color: #ffffff;
+  background-image: url(${bgImage});
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   padding: 20px;
   min-height: 100vh;
   font-family: 'Amiri', serif;
