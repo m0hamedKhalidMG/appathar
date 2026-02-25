@@ -51,6 +51,7 @@ const HeroSection = styled.div`
   padding-left: 80px;
   overflow: visible;
   margin-top: 70px;
+  padding-bottom: 0;
 
   &::before {
     content: '';
@@ -69,18 +70,22 @@ const HeroSection = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: 80vh;
+    height: auto;
+    min-height: 60vh;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 20px;
     justify-content: center;
     text-align: center;
     background-attachment: scroll;
   }
 
   @media (max-width: 480px) {
-    height: 70vh;
+    height: auto;
+    min-height: 50vh;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
   }
 `;
 
@@ -161,18 +166,20 @@ const CardsWrapper = styled.div`
   }
 
   @media (max-width: 768px) {
-    position: absolute;
-    top: 55%;
-    ${(props) => (props.isArabic ? 'right: 30px; left: auto;' : 'left: 30px; right: auto;')}
-    transform: translateY(-50%);
+    position: static;
+    transform: none;
     width: calc(100% - 60px);
-    padding: 0;
+    padding: 20px 0;
+    margin: 20px auto;
   }
 
   @media (max-width: 480px) {
-    top: 50%;
-    ${(props) => (props.isArabic ? 'right: 20px; left: auto;' : 'left: 20px; right: auto;')}
+    position: static;
+    transform: none;
     width: calc(100% - 40px);
+    padding: 15px 0;
+    margin: 15px auto;
+    max-width: 100%;
   }
 `;
 
