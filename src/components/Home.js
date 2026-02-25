@@ -139,42 +139,7 @@ const SubHeading = styled.p`
   }
 `;
 
-const CTAButton = styled.button`
-  background: linear-gradient(135deg, #C6A75E 0%, #E5D4A8 100%);
-  color: #0F1C2E;
-  border: none;
-  padding: 18px 50px;
-  font-size: 16px;
-  font-weight: 700;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  letter-spacing: 1px;
-  font-family: 'Georgia', serif;
-  text-transform: uppercase;
-  width: fit-content;
-  box-shadow: 0 8px 24px rgba(198, 167, 94, 0.3);
-  animation: ${fadeIn} 1s ease-out 0.6s both;
 
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 16px 40px rgba(198, 167, 94, 0.5);
-  }
-
-  &:active {
-    transform: translateY(-2px);
-  }
-
-  @media (max-width: 768px) {
-    padding: 16px 40px;
-    font-size: 14px;
-  }
-
-  @media (max-width: 480px) {
-    padding: 14px 32px;
-    font-size: 13px;
-  }
-`;
 
 // ============ FEATURE CARDS SECTION ============
 
@@ -307,36 +272,10 @@ const CardDescription = styled.p`
 
 // ============ PADDING SECTION ============
 
-const PaddingSection = styled.div`
-  height: 120px;
-  background: linear-gradient(180deg, rgba(229, 212, 168, 0.4) 0%, #ffffff 100%);
 
-  @media (max-width: 768px) {
-    height: 60px;
-  }
-`;
 
-const ContentSection = styled.div`
-  padding: 80px 40px;
-  background: white;
-  text-align: center;
 
-  @media (max-width: 768px) {
-    padding: 60px 30px;
-  }
-`;
 
-const SectionTitle = styled.h2`
-  font-size: 48px;
-  font-weight: 700;
-  color: #0F1C2E;
-  font-family: 'Georgia', serif;
-  margin-bottom: 20px;
-
-  @media (max-width: 768px) {
-    font-size: 36px;
-  }
-`;
 
 const Home = () => {
   const { i18n } = useTranslation();
