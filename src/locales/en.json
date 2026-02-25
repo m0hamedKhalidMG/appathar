@@ -1,0 +1,56 @@
+{
+  "header": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "diriyah": "Diriyah",
+    "archaeologicalPlaces": "Archaeological Places",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout"
+  },
+  "home": {
+    "arabicTitle": "Our Compass to the Most Beautiful Destinations",
+    "englishTitle": "Our compass to the most beautiful destinations"
+  },
+  "about": {
+    "title": "Mudahal Platform",
+    "description": "The Mudahal platform to identify the most prominent archaeological and tourist sites in the Kingdom of Saudi Arabia. It contributes to the discovery of archaeological sites recently discovered by citizens and not yet classified by experts and workers in archaeology and tourism; so that they can be researched by specialists to classify and register them faster as archaeological and tourist landmarks."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "success": "Message sent successfully!"
+  },
+  "footer": {
+    "importantLinks": "Important Links",
+    "allRightsReserved": "All rights reserved",
+    "atharLogo": "Athar Logo",
+    "vision2030": "Saudi Vision 2030",
+    "medhal": "Medhal"
+  },
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Login",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up"
+  },
+  "signup": {
+    "title": "Sign Up",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Login"
+  }
+}
