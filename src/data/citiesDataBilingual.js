@@ -117,16 +117,7 @@ const citiesDataBilingual = {
     ],
 
     entertainment: [
-      {
-        image: require('../images/القصيم/rest1.jpg'),
-        ar: { name: 'مدينة الملاهي', description: 'مدينة ملاهي عائلية توفر أنشطة ترفيهية للأطفال والعائلات.', address: 'بريدة - حي الخليج', phone: '٠١٦٣٨١٢٣٤٥', type: 'ملاهي', hours: '١٦:٠٠ - ٢٣:٠٠' },
-        en: { name: 'Amusement City', description: 'A family amusement park offering entertainment activities for children and families.', address: 'Riyadh - Al-Khalij District', phone: '+966-16-3812345', type: 'Amusement', hours: '16:00 - 23:00' }
-      },
-      {
-        image: require('../images/القصيم/rest2.jpg'),
-        ar: { name: 'حديقة الملك عبدالعزيز', description: 'حديقة عامة جميلة مع مناطق جلوس ومسارات طبيعية.', address: 'بريدة - طريق الملك عبدالعزيز', phone: '٠١٦٣٨٦٥٤٣٢', type: 'حديقة', hours: '٠٨:٠٠ - ٢٢:٠٠' },
-        en: { name: 'King Abdulaziz Park', description: 'A beautiful public garden with seating areas and natural pathways.', address: 'Riyadh - King Abdulaziz Road', phone: '+966-16-3865432', type: 'Park', hours: '08:00 - 22:00' }
-      }
+     
     ]
   },
 
