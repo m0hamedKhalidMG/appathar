@@ -122,7 +122,7 @@ const citiesDataBilingual = {
     ar: { 
     name: 'حديقة الملك خالد',
     description: 'حديقة عامة واسعة في الخماسين تضم مساحات خضراء وملاهي للأطفال وممشى للعائلات، إضافة إلى مسرح مكشوف لإقامة الفعاليات. تتميز بالنظافة والتنظيم وتعد متنزهاً مناسباً لجميع أفراد الأسرة.',
-    address: 'الخماسين - وادي الدواسر',
+    address: 'القصيم',
     phone: '٠٥٦٢٢٢٢٢٢٢',
     type: 'حديقة عامة',
     hours: '١٦:٠٠ - ٢٣:٠٠'
@@ -130,7 +130,7 @@ const citiesDataBilingual = {
   en: { 
     name: 'King Khalid Park',
     description: 'A spacious public park in Al-Khamaseen featuring green areas, kids’ play zones, walking paths, and an open-air theater for events. It is clean, organized, and ideal for families.',
-    address: 'Al-Khamaseen - Wadi Dawsar',
+    address: 'Al Qassim',
     phone: '+966-56-22222222',
     type: 'Public Park',
     hours: '16:00 - 23:00'
@@ -210,6 +210,25 @@ const citiesDataBilingual = {
     ],
 
     entertainment: [
+      {
+        image: require('../images/caption.jpg'),
+    ar: { 
+    name: 'حديقة الملك خالد',
+    description: 'حديقة عامة واسعة في الخماسين تضم مساحات خضراء وملاهي للأطفال وممشى للعائلات، إضافة إلى مسرح مكشوف لإقامة الفعاليات. تتميز بالنظافة والتنظيم وتعد متنزهاً مناسباً لجميع أفراد الأسرة.',
+    address: 'الخماسين - وادي الدواسر',
+    phone: '٠٥٦٢٢٢٢٢٢٢',
+    type: 'حديقة عامة',
+    hours: '١٦:٠٠ - ٢٣:٠٠'
+  },
+  en: { 
+    name: 'King Khalid Park',
+    description: 'A spacious public park in Al-Khamaseen featuring green areas, kids’ play zones, walking paths, and an open-air theater for events. It is clean, organized, and ideal for families.',
+    address: 'Al-Khamaseen - Wadi Dawsar',
+    phone: '+966-56-22222222',
+    type: 'Public Park',
+    hours: '16:00 - 23:00'
+  }
+      }
     ]
   },
 
