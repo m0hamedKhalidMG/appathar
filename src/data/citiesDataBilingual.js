@@ -385,7 +385,7 @@ const citiesDataBilingual = {
     entertainment: [
       {
         image: require('../images/وادي_الدواسر/rest15.jpg'),
-        ar: { name: 'أكاديمية ويلا للفروسية', description: 'أكاديمية تضم كافيه ومطعم وتوفر تدريب الفروسية في أجواء ريفية مميزة ومناسبة للعائلات.', address: 'الخماسين - وادي الدواسر', phone: '٠٥٦٢٢٢٢٢٢٢', type: 'فروسية', hours: '٠٩:٠٠ - ١٨:٠٠' },
+        ar: { name: 'أكاديمية برق للفروسية', description: 'أكاديمية تضم كافيه ومطعم وتوفر تدريب الفروسية في أجواء ريفية مميزة ومناسبة للعائلات.', address: 'الخماسين - وادي الدواسر', phone: '٠٥٦٢٢٢٢٢٢٢', type: 'فروسية', hours: '٠٩:٠٠ - ١٨:٠٠' },
         en: { name: 'Wella Equestrian Academy', description: 'An equestrian academy with a cafe and restaurant offering horseback riding lessons in a special rural family-friendly atmosphere.', address: 'Khamaseen - Wadi Dawsar', phone: '+966-56-22222222', type: 'Equestrian', hours: '09:00 - 18:00' }
       },
       {
