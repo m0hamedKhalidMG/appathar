@@ -255,7 +255,7 @@ const citiesDataBilingual = {
     restaurants: [
       {
         image: require('../images/تبوك/rest1.jpg'),
-        ar: { name: 'مطعم تبوك التراثي', description: 'مأكولات تقليدية من شمال المملكة.', address: 'تبوك - حي العزيزية', phone: '٠١٤٤٢٥٥٥٥٥', cuisine: 'شمالي', hours: '١١:٣٠ - ٢٣:٠٠' },
+        ar: { name: 'مطعم القريه التراثية', description: 'مأكولات تقليدية من شمال المملكة.', address: 'تبوك - حي العزيزية', phone: '٠١٤٤٢٥٥٥٥٥', cuisine: 'شمالي', hours: '١١:٣٠ - ٢٣:٠٠' },
         en: { name: 'Tabuk Heritage Restaurant', description: 'Traditional cuisine from northern Saudi Arabia.', address: 'Tabuk - Al-Aziziyah District', phone: '+966-144-255555', cuisine: 'Northern', hours: '11:30 - 23:00' }
       },
       {
