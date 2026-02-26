@@ -111,7 +111,7 @@ const citiesDataBilingual = {
       },
       {
         image: require('../images/القصيم/rest7.jpg'),
-        ar: { name: 'مزرعة للنخيل', description: 'مزرعة تحتوي على مقهى مختص وجلسات خارجية وسط النخيل.', address: 'القصيم - خارج المدينة', phone: '٠١٦٣٧١١١١١', cuisine: 'مقهى ومزرعة', hours: '٠٩:٠٠ - ٢١:٠٠' },
+        ar: { name: 'غسق', description: '   مقهى مختص وجلسات خارجية وسط النخيل.', address: 'القصيم - خارج المدينة', phone: '٠١٦٣٧١١١١١', cuisine: 'مقهى ومزرعة', hours: '٠٩:٠٠ - ٢١:٠٠' },
         en: { name: 'Palm Farm', description: 'A farm featuring a specialty cafe and outdoor seating among palm trees.', address: 'Al Qassim - Outside City', phone: '+966-16-3711111', cuisine: 'Cafe & Farm', hours: '09:00 - 21:00' }
       }
     ],
