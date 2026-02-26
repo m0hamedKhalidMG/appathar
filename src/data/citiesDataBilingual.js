@@ -118,7 +118,7 @@ const citiesDataBilingual = {
 
     entertainment: [
       {
-        image: require('../images/caption'),
+        image: require('../images/caption.jpg'),
     ar: { 
     name: 'حديقة الملك خالد',
     description: 'حديقة عامة واسعة في الخماسين تضم مساحات خضراء وملاهي للأطفال وممشى للعائلات، إضافة إلى مسرح مكشوف لإقامة الفعاليات. تتميز بالنظافة والتنظيم وتعد متنزهاً مناسباً لجميع أفراد الأسرة.',
