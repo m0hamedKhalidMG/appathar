@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
-import citiesDataBilingual from '../data/citiesData';
+import citiesDataBilingual from '../data/citiesDataBillingual';
 import bgImage from '../images/bg.jpeg';
 
 const Container = styled.div`
