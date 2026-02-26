@@ -271,11 +271,7 @@ const citiesDataBilingual = {
     ],
 
     entertainment: [
-      {
-        image: require('../images/تبوك/rest1.jpg'),
-        ar: { name: 'شاطئ خليج العقبة', description: 'شاطئ جميل مع مياه فيروزية وأنشطة مائية متنوعة.', address: 'تبوك - الساحل', phone: '٠١٤٤٢٧٠٠٠٠', type: 'شاطئ', hours: '٠٨:٠٠ - ٢٢:٠٠' },
-        en: { name: 'Aqaba Gulf Beach', description: 'A beautiful beach with turquoise waters and various water activities.', address: 'Tabuk - Coastal Area', phone: '+966-144-270000', type: 'Beach', hours: '08:00 - 22:00' }
-      }
+     
     ]
   },
 
