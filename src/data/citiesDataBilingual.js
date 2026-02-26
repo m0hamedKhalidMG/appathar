@@ -210,25 +210,25 @@ const citiesDataBilingual = {
     ],
 
     entertainment: [
-      {
-        image: require('../images/caption.jpg'),
-    ar: { 
-    name: 'حديقة الملك خالد',
-    description: 'حديقة عامة واسعة في الخماسين تضم مساحات خضراء وملاهي للأطفال وممشى للعائلات، إضافة إلى مسرح مكشوف لإقامة الفعاليات. تتميز بالنظافة والتنظيم وتعد متنزهاً مناسباً لجميع أفراد الأسرة.',
-    address: 'الخماسين - وادي الدواسر',
-    phone: '٠٥٦٢٢٢٢٢٢٢',
-    type: 'حديقة عامة',
-    hours: '١٦:٠٠ - ٢٣:٠٠'
+     {
+  image: require('../images/screenshot-20190707-132927.jpg'),
+  ar: { 
+    name: 'بحيرة دومة الجندل',
+    description: 'بحيرة دومة الجندل من أبرز المعالم الطبيعية في منطقة الجوف، تتميز بإطلالتها الخلابة وأجوائها الهادئة، وتعد وجهة مثالية للتنزه والاستمتاع بالطبيعة ومشاهدة غروب الشمس. كما توفر أنشطة ترفيهية مثل القوارب والمشي على الواجهة المائية.',
+    address: 'دومة الجندل - منطقة الجوف',
+    phone: '—',
+    type: 'معلم طبيعي',
+    hours: 'مفتوح على مدار الساعة'
   },
   en: { 
-    name: 'King Khalid Park',
-    description: 'A spacious public park in Al-Khamaseen featuring green areas, kids’ play zones, walking paths, and an open-air theater for events. It is clean, organized, and ideal for families.',
-    address: 'Al-Khamaseen - Wadi Dawsar',
-    phone: '+966-56-22222222',
-    type: 'Public Park',
-    hours: '16:00 - 23:00'
+    name: 'Dumat Al-Jandal Lake',
+    description: 'Dumat Al-Jandal Lake is one of the most prominent natural attractions in Al Jouf region. It offers scenic views and a peaceful atmosphere, making it perfect for relaxation, sunset watching, and waterfront walks, with boating activities available.',
+    address: 'Dumat Al-Jandal - Al Jouf Region',
+    phone: '—',
+    type: 'Natural Attraction',
+    hours: 'Open 24 Hours'
   }
-      }
+}
     ]
   },
 
@@ -308,7 +308,26 @@ const citiesDataBilingual = {
     ],
 
     entertainment: [
-     
+     {
+  image: require('../images/Aqua-Park-water-park-in-Jeddah-5.jpg'),
+  ar: { 
+    name: 'القرية المائية - تبوك',
+    description: 'القرية المائية في تبوك تُعد من أبرز الوجهات الترفيهية للعائلات، حيث تضم ألعاباً مائية متنوعة ومسابح للكبار والصغار ومنزلقات ممتعة، إضافة إلى جلسات عائلية ومرافق خدمية متكاملة. تعتبر مكاناً مثالياً لقضاء يوم مليء بالمرح والترفيه.',
+    address: 'تبوك',
+    phone: '٠٥٦٢٢٢٢٢٢٢',
+    type: 'مدينة ألعاب مائية',
+    hours: '١٤:٠٠ - ٢٣:٠٠'
+  },
+  en: { 
+    name: 'Tabuk Water Village',
+    description: 'Tabuk Water Village is one of the most popular family entertainment destinations in Tabuk, featuring various water slides, pools for adults and children, and family seating areas with full facilities. It is a perfect place for a fun-filled day.',
+    address: 'Tabuk',
+    phone: '+966-56-22222222',
+    type: 'Water Park',
+    hours: '14:00 - 23:00'
+  }
+}
+      
     ]
   },
 
