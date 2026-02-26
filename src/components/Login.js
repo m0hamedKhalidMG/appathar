@@ -4,13 +4,17 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
+import bgImage from '../images/bg.jpeg';
 
 const LoginContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f1ede1;
+  background-image: url(${bgImage});
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 `;
 
 const LoginForm = styled.form`

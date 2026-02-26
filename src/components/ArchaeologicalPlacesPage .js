@@ -2,11 +2,15 @@ import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
 import citiesDataBilingual from '../data/citiesDataBilingual';
+import bgImage from '../images/bg.jpeg';
 
 const Container = styled.div`
   font-family: '29LT Riwaya', sans-serif;
   padding: 20px;
-  background-color: #ffffff;
+  background-image: url(${bgImage});
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   min-height: 100vh;
   direction: ${({ dir }) => dir || 'ltr'};
   margin-top: 70px;
