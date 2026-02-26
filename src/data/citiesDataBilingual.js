@@ -349,12 +349,12 @@ const citiesDataBilingual = {
 
     restaurants: [
       {
-        image: require('../images/وادي_الدواسر/rest1.jpg'),
+        image: require('../images/وادي_الدواسر/new1.jpg'),
         ar: { name: 'مطعم شوزان', description: 'مطعم يقدم تشكيلة متنوعة من الأطباق العربية والعالمية.', address: 'وادي الدواسر - وسط البلد', phone: '٠١٧٧٨٣٤٥٦٧', cuisine: 'عالمي', hours: '١١:٠٠ - ٢٣:٠٠' },
         en: { name: 'Shouzan Restaurant', description: 'A restaurant offering a diverse selection of Arab and international dishes.', address: 'Wadi Dawsar - City Center', phone: '+966-177-834567', cuisine: 'International', hours: '11:00 - 23:00' }
       },
       {
-        image: require('../images/وادي_الدواسر/rest2.jpg'),
+        image: require('../images/وادي_الدواسر/new2.jpg'),
         ar: { name: 'مطعم سافران', description: 'مطعم راقٍ يقدم أطباق مميزة في أجواء عائلية هادئة.', address: 'وادي الدواسر - حي الفيصلية', phone: '٠١٧٧٨٤٥٦٧٨', cuisine: 'متنوع', hours: '١٢:٠٠ - ٢٣:٣٠' },
         en: { name: 'Saffron Restaurant', description: 'An upscale restaurant offering special dishes in a quiet family atmosphere.', address: 'Wadi Dawsar - Al-Faisaliyah District', phone: '+966-177-845678', cuisine: 'Mixed', hours: '12:00 - 23:30' }
       },
