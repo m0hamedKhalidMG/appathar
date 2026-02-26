@@ -228,14 +228,8 @@ const CardBase = styled.div`
   }
 `;
 
-const Card = styled(CardBase)`
-  background: #ffffff;
-  border-color: rgba(255, 255, 255, 0.5);
-  
-  &:hover {
-    background: #ffffff;
-  }
-`;
+
+
 
 const DarkCard = styled(CardBase)`
   background: rgba(15, 28, 46, 0.85);
