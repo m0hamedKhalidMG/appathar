@@ -307,30 +307,30 @@ const Home = () => {
       <CardsWrapper isArabic={isArabic}>
         <CardsContainer>
           {/* Card 1 - Explore The Sites */}
-          <Card delay="0.8s">
+          <DarkCard delay="0.8s">
             <CardIcon delay="0s">🏛️</CardIcon>
-            <CardTitle textColor="#0F1C2E">
+            <CardTitle textColor="#E5D4A8">
               {isArabic ? 'استكشف الآثار' : 'Explore The Sites'}
             </CardTitle>
-            <CardDescription textColor="#5A5A5A">
+            <CardDescription textColor="#C9C9C9">
               {isArabic
                 ? 'اكتشف المواقع الأثرية والمعالم الثقافية الساحرة في كل مدينة'
                 : 'Discover enchanting archaeological sites and cultural landmarks in every destination'}
             </CardDescription>
-          </Card>
+          </DarkCard>
 
           {/* Card 2 - Local Experiences */}
-          <Card delay="1s">
+          <DarkCard delay="1s">
             <CardIcon delay="0.2s">🌍</CardIcon>
-            <CardTitle textColor="#0F1C2E">
+            <CardTitle textColor="#E5D4A8">
               {isArabic ? 'التجارب المحلية' : 'Local Experiences'}
             </CardTitle>
-            <CardDescription textColor="#5A5A5A">
+            <CardDescription textColor="#C9C9C9">
               {isArabic
                 ? 'استمتع بالتجارب الثقافية الأصيلة والأنشطة الترفيهية المحلية'
                 : 'Immerse in authentic cultural experiences and local entertainment activities'}
             </CardDescription>
-          </Card>
+          </DarkCard>
 
           {/* Card 3 - Where to Stay (Dark Version) */}
           <DarkCard delay="1.2s">
