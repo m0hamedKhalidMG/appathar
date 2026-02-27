@@ -291,13 +291,7 @@ const Header = () => {
         >
           {t('header.destinations') || 'Destinations'}
         </Link>
-        <Link
-          to="/"
-          className={activeButton === 'diriyah' ? 'active' : ''}
-          onClick={() => setActiveButton('diriyah')}
-        >
-          {t('header.diriyah') || 'Diriyah'}
-        </Link>
+       
         <Link
           to="/about"
           className={activeButton === 'about' ? 'active' : ''}
@@ -346,16 +340,7 @@ const Header = () => {
         >
           {t('header.destinations') || 'Destinations'}
         </Link>
-        <Link
-          to="/"
-          className={activeButton === 'diriyah' ? 'active' : ''}
-          onClick={() => {
-            setActiveButton('diriyah');
-            closeMenu();
-          }}
-        >
-          {t('header.diriyah') || 'Diriyah'}
-        </Link>
+       
         <Link
           to="/about"
           className={activeButton === 'about' ? 'active' : ''}
